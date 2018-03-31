@@ -7,6 +7,6 @@ RUN pip3 install PyYAML filemagic
 
 # Copy all project and build it
 # This layer is rebuilt when ever a file has changed in the project directory
-COPY ../* /opt/labgrid
+COPY . /opt/labgrid/
 
 RUN cd /opt/labgrid && python3 setup.py install
