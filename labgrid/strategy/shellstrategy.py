@@ -1,5 +1,5 @@
 import enum
-
+import time
 import attr
 
 from ..driver import ShellDriver
@@ -50,6 +50,7 @@ class ShellStrategy(Strategy):
         elif status == Status.shell:
             self.transition(Status.off)
             self.power.cycle()
+            time.sleep(60)
             self.target.activate(self.shell)
         else:
             raise StrategyError(
