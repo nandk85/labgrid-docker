@@ -9,7 +9,7 @@ RUN pip3 install PyYAML filemagic
 # This layer is rebuilt when ever a file has changed in the project directory
 COPY . /opt/labgrid/
 
-RUN cd /opt/labgrid && python3 pip install -r requirements.txt --no-index
+RUN cd /opt/labgrid && pip install -r requirements.txt --no-index
 
 RUN cd /opt/labgrid && python3 setup.py install
 
