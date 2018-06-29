@@ -12,7 +12,7 @@ RUN python3.6 -m pip install pip --upgrade
 RUN python3.6 -m pip install wheel
 
 # Install tools required to build the project
-RUNpython3.6 -m pip install PyYAML filemagic
+RUN python3.6 -m pip install PyYAML filemagic
 
 # Copy all project and build it
 # This layer is rebuilt when ever a file has changed in the project directory
