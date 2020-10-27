@@ -18,7 +18,7 @@ checkbox-support==0.22
 cliff==2.11.0
 cmd2==0.8.5
 command-not-found==0.3
-cryptography==2.2.2
+cryptography==3.2
 debtcollector==1.19.0
 decorator==4.3.0
 defer==1.0.6
