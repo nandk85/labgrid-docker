@@ -50,7 +50,7 @@ labgrid==0.1.1.dev332+ngebbe909.d20180605
 language-selector==0.1
 linecache2==1.0.0
 louis==2.6.4
-lxml==3.5.0
+lxml==4.6.2
 Mako==1.0.3
 MarkupSafe==0.23
 mccabe==0.6.1
