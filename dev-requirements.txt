@@ -40,7 +40,7 @@ ipython-genutils==0.2.0
 iscconf==1.0.1
 iscpy==1.5
 iso8601==0.1.12
-Jinja2==2.8
+Jinja2==2.11.3
 jmespath==0.9.3
 jsonpatch==1.23
 jsonpointer==2.0
