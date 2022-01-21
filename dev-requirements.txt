@@ -35,7 +35,7 @@ html5lib==0.999
 httplib2==0.9.1
 idna==2.6
 ipdb==0.11
-ipython==5.6.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 iscconf==1.0.1
 iscpy==1.5
